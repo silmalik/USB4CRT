@@ -21,6 +21,11 @@ Configuration files:
     Contains pattern and I2C commands
     Can modified while USB4CRT agent is running, if changed is done, the script will reload the file
 
+    Sections:
+    - "mameGame": for specific mame game, just in case, not recommended
+    - "mameResolution": can be filled with full video mode description or pattern
+    - "systemResolution": For "out of Mame" usage
+
   mame_res_info.json:
     Contains Mame games video modes, based on mame.xml famous file.
     Provided "mame_res_info.json" is based on mame200.xml
@@ -46,4 +51,8 @@ To launch in a hidden way, create a shortcut with a similar command line (run mi
 	--> If required, Add options "-mameProcessName myMameBinary -ComPort COMx":
 
 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -MTA . C:\USB4CRT\USB4CRT_Agent.ps1"-mameProcessName groovymame -ComPport COM5
+
+
+For illustration, example of crt_config.json:
+
 
