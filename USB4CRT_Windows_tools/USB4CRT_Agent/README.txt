@@ -53,6 +53,4 @@ To launch in a hidden way, create a shortcut with a similar command line (run mi
 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -MTA . C:\USB4CRT\USB4CRT_Agent.ps1"-mameProcessName groovymame -ComPport COM5
 
 
-For illustration, example of crt_config.json:
-
 
